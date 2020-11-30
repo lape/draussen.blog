@@ -176,6 +176,11 @@ into the {body} of the default.hbs template --}}
           </div>
         </section>
         {{!-- If you want to embed comments, this is a good place to do it! --}}
+        <script>talkyardServerUrl='https://comments-for-draussen-blog.talkyard.net';</script>
+        <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+        <div class="talkyard-comments" data-discussion-id="{{comment_id}}" style="margin-top: 45px;">
+          <noscript>Please enable Javascript to view comments.</noscript>
+        </div>
         {{!--
           <section class="m-comments">
             <div class="m-load-comments">
